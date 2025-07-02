@@ -1,0 +1,14 @@
+Adam_optimizer:
+  initial_lr: 0.01
+  weight_decay: 1.0e-06
+Dataset:
+  num_locations: 20607
+  num_users: 10000
+  sequence_length: 20
+Embedding:
+  base_dim: 24
+Model:
+  batch_size: 128
+  epoch: 30
+  seed: 1234
+
