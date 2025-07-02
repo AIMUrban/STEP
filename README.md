@@ -13,11 +13,11 @@ We train STEP for 15 epochs with a batch size of 128.
 ### Hyperparameters
 All hyperparameter settings are saved in the `.yml` files under the respective dataset folder under `saved_models/`. \
 \
-For example, `saved_models/TC/settings.yml` contains hyperparameter settings of MCLP for Traffic Camera Dataset. 
+For example, `saved_models/TC/settings.yml` contains hyperparameter settings of STEP for Traffic Camera Dataset. 
 
 ### Run
 - For STEP model:
   ```shell
-  python ./model/run.py --dataset TC --dim 32 
+  python ./model/run.py --dataset TC --dim 48
   ```
 
