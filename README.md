@@ -23,5 +23,3 @@ For example, `saved_models/TC/settings.yml` contains hyperparameter settings of 
   ```shell
   python ./model/run.py --dataset TC 
   ```
-
-s
