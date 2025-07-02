@@ -1,10 +1,6 @@
 # STEP
 This is the PyTorch implementation of the Semantic and Temporal Enhanced Prediction model (STEP) and helps readers to reproduce the results in the paper "**Next Location Prediction with Latent Location Semantics and Activity Time Inference**".
 
-* Model Framework
-<p align="middle" width="100%">
-  <img src="fig/framework.png" width="80%"/>
-</p>
 
 ### Configurations
 For TC datasets, the embedding dimensions of the proposed model are set to 48, while for MP, it's 24.  
