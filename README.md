@@ -8,7 +8,7 @@ The Transformer encoder consists of 2 layers, each with 4 attention heads and a 
 We train STEP for 15 epochs with a batch size of 128. 
 
 ### DataSet
-The raw data utilized in this study originates from two publicly available datasets introduced in the papers "City-scale Vehicle Trajectory Data from Traffic Camera Videos" and "Metropolitan Scale and Longitudinal Dataset of Anonymized Human Mobility Trajectories".
+The raw data utilized in this study originates from two publicly available datasets introduced in the papers "**City-scale Vehicle Trajectory Data from Traffic Camera Videos**" and "**Metropolitan Scale and Longitudinal Dataset of Anonymized Human Mobility Trajectories**".
 
 Following the data processing definition outlined in the paper, we extracted user activity trajectories and constructed two CSV files: train.csv and test.csv. Each file contains three key attributes: uid (anonymized user ID), t (the recorded time of activity), and l (a unique identifier for each visited location).
 
